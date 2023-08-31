@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="404.css">
+    <title>Error 404</title>
+</head>
+<body>
+    <main class="main">
+        <h1>404</h1>
+        <p>Page not found</p>
+        <button class="404btn">Go back</button>
+    </main>
+    <script>
+        document.querySelector(".404btn").addEventListener("click", function(){
+            window.location.href = "/";
+            console.log("redirected to home page");
+        });
+    </script>
+</body>
+</html>
